@@ -1,11 +1,13 @@
-// import './App.css';
+import { BrowserRouter } from 'react-router-dom';
+
+import Routes from './Routes';
 
 function App() {
 
     return (
-        <>
-            <h1>The Habits Road</h1>
-        </>
+        <BrowserRouter>
+            <Routes />
+        </BrowserRouter>
     );
 }
 
